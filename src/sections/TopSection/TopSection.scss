@@ -1,0 +1,156 @@
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .intro {
+        text-align: right;
+        width: 40%;
+        padding-right: 4rem;
+
+        border-right: 1px solid var(--text-primary);
+
+        h1 {
+            font-size: 9rem;
+            font-weight: bold;
+            line-height: 0.9em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 2rem;
+            margin: 3;
+        }
+
+    }
+    // .signature{
+    //     width: 200px;
+    //     height: 200px;
+    //     border-radius: 50%;
+    //     overflow: hidden;
+    //     background-color: var(--text-primary);
+    //     display: block;
+    //     margin-left: 2rem;
+    //     clip-path: circle();
+    //     text-align:center;
+       
+    //     overflow: hidden;
+    //     position: relative;
+    //     align-content: center;
+    //     signature-path {
+    //         width: 100%;
+    //         position: relative;
+    //         display: block;
+    //         content: inherit;
+    //         margin: 0 auto
+    //     }
+
+    // }
+    .container {
+        background: #fff;
+        border: 1px solid #000;
+        padding: 3px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 20px;
+      }
+      .crop {
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+      }
+      img {
+        display: block;
+        height: 100%;
+        position: absolute;
+        margin: auto;
+        top: -100%;
+        right: -100%;
+        bottom: -100%;
+        left: -100%;
+      }
+
+    .social {
+        position: absolute;
+        bottom: 3rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .top-section {
+
+        .intro {
+            width: 50%;
+
+            h1 {
+                font-size: 7rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+
+        .intro {
+            text-align: center;
+            border-bottom: 1px solid var(--text-primary);
+            border-right: none;
+            width: auto;
+            padding: 0;
+            padding-bottom: 2rem;
+
+            h1 {
+                font-size: 5rem;
+            }
+        }
+
+        // .signature {
+        //     height: 30%;
+        //     padding: 0;
+        //     padding-top: 2rem;
+        // }
+        // .signature {
+        //     width: 200px;
+        //     height: 200px;
+        //     border-radius: 50%;
+        //     overflow: hidden;
+        //     background-color: var(--text-primary);
+        //     display: block;
+        //     margin-top: 2rem;
+        //     clip-path: circle();
+
+        //     signature-path {
+        //         // width: 100%;
+        //         position: relative;
+        //         display: block;
+        //         content: inherit;
+        //         margin: 0 auto
+        //     }
+
+        //     // svg {
+        //     //     height: 100%;
+        //     //     width: 100%;
+
+        //     //     #signature-path {
+        //     //         animation: drawSignature 5s linear forwards;
+        //     //     }
+        //     // }
+        // }
+
+    }
+}
+
+@keyframes drawSignature {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
