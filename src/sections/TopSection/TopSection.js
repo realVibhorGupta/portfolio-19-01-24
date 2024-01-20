@@ -1,6 +1,7 @@
 import React from "react";
 import CircleButton from "../../components/CircleButton/CircleButton";
 import "./TopSection.scss";
+import mainImage from '../../assets/images/vibhor.jpg';
 
 import { CommonConfig, Icons } from "../../config";
 
@@ -32,11 +33,9 @@ class TopSection extends React.Component {
         <div className="container">
           <div className="crop">
             <img
-              src={process.env.REACT_APP_PUBLIC_URL + 'vibhor.jpg'}
-              
+              src={mainImage}
               alt="vibhor"
             />
-            {console.log(process.env.PUBLIC_URL)}
           </div>
         </div>
         <div className="social">
