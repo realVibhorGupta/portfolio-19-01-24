@@ -6,11 +6,11 @@ import Footer from './sections/Footer/Footer';
 import FreePalestine from './components/FreePalestine/FreePalestine';
 
 import { CustomSectionsConfig, CommonConfig } from './config'
-import  splitbee from '@splitbee/web';
+// import  splitbee from '@splitbee/web';
 
 class App extends React.Component {
 
-// This initiliazes Splitbee.js
+// This initializes Splitbee.js
      // splitbee.init()
     constructor(props) {
         super(props);
