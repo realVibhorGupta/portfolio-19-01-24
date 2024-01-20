@@ -34,6 +34,7 @@ class TopSection extends React.Component {
           <div className="crop">
             <img
               src={mainImage}
+              loading="lazy"
               alt="vibhor"
             />
           </div>
