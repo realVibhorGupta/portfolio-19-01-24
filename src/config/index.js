@@ -24,9 +24,9 @@ import React from "react";
 import { Icons } from "./icons";
 
 // CUSTOM ICONS
-import SettingsInputAntennaIcon from "@material-ui/icons/SettingsInputAntenna";
-import WbIridescentIcon from "@material-ui/icons/WbIridescent";
-import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
+// import SettingsInputAntennaIcon from "@material-ui/icons/SettingsInputAntenna";
+// import WbIridescentIcon from "@material-ui/icons/WbIridescent";
+// import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import ComputerIcon from "@material-ui/icons/Computer";
 import InfoIcon from "@material-ui/icons/Info";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -302,77 +302,77 @@ const CustomSectionsConfig = [
     ),
   },
 
-  {
-    name: "reviews",
-    headerIcon: <RateReviewIcon />,
-    content: (
-      <>
-        <h4 style={{ fontSize: "2em" }}>
-          {Icons["helpoutline"]} what do others say?
-        </h4>
-        <p>
-          <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
-            “
-          </span>
-          <br />
-          Fawad did an excellent job for us on Phoenix. He worked hard, writing
-          very good and legible code and made an invaluable contribution to the
-          project.
-        </p>
-        <p>
-          We like that he is very motivated, self-driven and is already an
-          experienced and knowledgable coder.
-        </p>
-        <p style={{ textAlign: "right", fontSize: "small" }}>
-          <i>
-            <b>Edward Moyse</b>
-            <br />
-            Software Coordinator
-            <br />
-            CERN
-          </i>
-        </p>
-        <p>
-          <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
-            “
-          </span>
-          <br />
-          The mentors have noticed that Fawad has strong technical skills, an
-          ability to learn quickly new technologies, that he is very flexible
-          and open minded, ready to discuss his views and to ponder about the
-          pros and cons in a thoughtful and collected manner, making his own
-          decisions taking into account the feedback he gets without accepting
-          everything nor rejecting anything.
-        </p>
-        <p style={{ textAlign: "right", fontSize: "small" }}>
-          <i>
-            <b>Stéphane Lauriere &amp; Ecaterina Moraru</b>
-            <br />
-            XWiki SAS
-          </i>
-        </p>
-        <p>
-          <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
-            “
-          </span>
-          <br />I have really appreciated your confidence to solve problems
-          yourself and follow your own intuition even when it goes against what
-          I was suggesting. I feel you were mostly right :)
-        </p>
-        <p style={{ textAlign: "right", fontSize: "small" }}>
-          <i>
-            <b>James Knight</b>
-            <br />
-            GeNN Team
-            <br />
-            Research Fellow
-            <br />
-            The University of Sussex
-          </i>
-        </p>
-      </>
-    ),
-  },
+  // {
+  //   name: "reviews",
+  //   headerIcon: <RateReviewIcon />,
+  //   content: (
+  //     <>
+  //       <h4 style={{ fontSize: "2em" }}>
+  //         {Icons["helpoutline"]} what do others say?
+  //       </h4>
+  //       <p>
+  //         <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
+  //           “
+  //         </span>
+  //         <br />
+  //         Fawad did an excellent job for us on Phoenix. He worked hard, writing
+  //         very good and legible code and made an invaluable contribution to the
+  //         project.
+  //       </p>
+  //       <p>
+  //         We like that he is very motivated, self-driven and is already an
+  //         experienced and knowledgable coder.
+  //       </p>
+  //       <p style={{ textAlign: "right", fontSize: "small" }}>
+  //         <i>
+  //           <b>Edward Moyse</b>
+  //           <br />
+  //           Software Coordinator
+  //           <br />
+  //           CERN
+  //         </i>
+  //       </p>
+  //       <p>
+  //         <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
+  //           “
+  //         </span>
+  //         <br />
+  //         The mentors have noticed that Fawad has strong technical skills, an
+  //         ability to learn quickly new technologies, that he is very flexible
+  //         and open minded, ready to discuss his views and to ponder about the
+  //         pros and cons in a thoughtful and collected manner, making his own
+  //         decisions taking into account the feedback he gets without accepting
+  //         everything nor rejecting anything.
+  //       </p>
+  //       <p style={{ textAlign: "right", fontSize: "small" }}>
+  //         <i>
+  //           <b>Stéphane Lauriere &amp; Ecaterina Moraru</b>
+  //           <br />
+  //           XWiki SAS
+  //         </i>
+  //       </p>
+  //       <p>
+  //         <span style={{ fontSize: "5rem", height: "30px", display: "block" }}>
+  //           “
+  //         </span>
+  //         <br />I have really appreciated your confidence to solve problems
+  //         yourself and follow your own intuition even when it goes against what
+  //         I was suggesting. I feel you were mostly right :)
+  //       </p>
+  //       <p style={{ textAlign: "right", fontSize: "small" }}>
+  //         <i>
+  //           <b>James Knight</b>
+  //           <br />
+  //           GeNN Team
+  //           <br />
+  //           Research Fellow
+  //           <br />
+  //           The University of Sussex
+  //         </i>
+  //       </p>
+  //     </>
+  //   ),
+  // },
   {
     name: "certifications",
     headerIcon: <RateReviewIcon />,

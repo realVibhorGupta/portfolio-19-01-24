@@ -29,12 +29,14 @@ class TopSection extends React.Component {
           <p>{CommonConfig.tagline}</p>
         </div>
 
-        <div class="container">
-          <div class="crop">
+        <div className="container">
+          <div className="crop">
             <img
-              src={process.env.REACT_APP_PUBLIC_URL + "vibhor.jpg"}
-              alt=""
+              src={process.env.PUBLIC_URL + 'vibhor.jpg'}
+              
+              alt="vibhor"
             />
+            {console.log(process.env.PUBLIC_URL)}
           </div>
         </div>
         <div className="social">
