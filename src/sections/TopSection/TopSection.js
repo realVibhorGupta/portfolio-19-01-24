@@ -27,7 +27,7 @@ class TopSection extends React.Component {
               
                 <div class="container">
   <div class="crop">
-    <img src={process.env.PUBLIC_URL + "/vibhor.jpg"} alt="" />
+    <img src={process.env.REACT_APP_PUBLIC_URL + "/vibhor.jpg"} alt="" />
   </div>
 </div>
                 <div className="social">
